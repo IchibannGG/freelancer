@@ -27,4 +27,9 @@ body {
     background-color: var(--secondary);
 }
 .main-nav {
+    padding: 1rem;
+}
+.main-nav a {
+    color: var(--white);
+    text-decoration: none;
 }
