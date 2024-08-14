@@ -19,3 +19,25 @@ body {
 .title span {
     font-size: 2rem;
 }
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg {
+    background-color: var(--secondary);
+}
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.main-navigation a {
+    padding: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-navigation a:hover {
+    background-color: var(--primary);
+    color: var(--black);
+}
